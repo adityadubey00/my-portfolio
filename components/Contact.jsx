@@ -31,8 +31,7 @@ const Contact = () => {
                 <h2 className='py-2'>Aditya Dubey</h2>
                 <p>A Web Developer</p>
                 <p className='py-4'>
-                  I am available for full-time positions. Contact
-                  me and let&apos;s talk.
+                  I am available for full-time positions. Contact me and let&apos;s talk.
                 </p>
               </div>
               <div>
@@ -61,11 +60,9 @@ const Contact = () => {
                     <AiOutlineMail />
                   </div>
                   <Link href='https://drive.google.com/file/d/1i2lJLpPMTvV_soRz0W5Ac5YStFwmQla_/view?usp=sharing'>
-                  
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                  
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <BsFillPersonLinesFill />
+                    </div>
                   </Link>
                 </div>
               </div>
@@ -76,9 +73,8 @@ const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
-                action='https://getform.io/f/nadogrmb'
+                action='https://formspree.io/f/xgvwqqly' // Your Formspree endpoint
                 method='POST'
-                encType='multipart/form-data'
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
@@ -90,9 +86,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>
-                      Phone Number
-                    </label>
+                    <label className='uppercase text-sm py-2'>Phone Number</label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
@@ -124,7 +118,7 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 text-gray-100 mt-4'>
+                <button className='w-full p-4 text-gray-100 mt-4 bg-blue-500 hover:bg-blue-700'>
                   Send Message
                 </button>
               </form>
@@ -132,14 +126,14 @@ const Contact = () => {
           </div>
         </div>
         <div className='flex justify-center py-12'>
-            <Link href={'/'}>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <HiOutlineChevronDoubleUp
-                  className='text-[#5651e5]'
-                  size={30}
-                />
-              </div>
-            </Link>
+          <Link href={'/'}>
+            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <HiOutlineChevronDoubleUp
+                className='text-[#5651e5]'
+                size={30}
+              />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
