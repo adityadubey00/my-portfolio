@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import Social from '../public/assets/projects/Social.png';
 import Ecart from '../public/assets/projects/Ecart.png'
+import orbit from '../public/assets/projects/orbit.png'
 import LinkedIn from '../public/assets/projects/LinkedIn.png'
 import Music from '../public/assets/projects/Music.png'
 import ProjectItem from './ProjectItem';
@@ -20,6 +21,12 @@ const Projects = () => {
             title='eCommerece'
             backgroundImg={Ecart}
             projectUrl='https://ecart-main-1.onrender.com/'
+            tech='React JS'
+          />
+           <ProjectItem
+            title='Doctor'
+            backgroundImg={orbit}
+            projectUrl='https://www.orbitclinics.com/'
             tech='React JS'
           />
           <ProjectItem
