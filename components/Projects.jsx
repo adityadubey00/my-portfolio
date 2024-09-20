@@ -27,7 +27,7 @@ const Projects = () => {
             title='Doctor'
             backgroundImg={orbit}
             projectUrl='https://www.orbitclinics.com/'
-            tech='React JS'
+            tech='Wordpress'
           />
           <ProjectItem
             title='Social_Media'

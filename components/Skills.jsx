@@ -9,6 +9,11 @@ import Github from '../public/assets/skills/github1.png';
 import NextJS from '../public/assets/skills/nextjs.png'
 import Node from "../public/assets/skills/node.png"
 import Mongo from '../public/assets/skills/mongo.png'
+import Exp from '../public/assets/skills/exp.png'
+import Shop from '../public/assets/skills/shopify.png'
+import wp from '../public/assets/skills/wp.png'
+import bt from '../public/assets/skills/bt.png'
+
 const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
@@ -81,13 +86,55 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
+                <Image src={Exp} width='200px' height='200px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Expressjs</h3>
+              </div>
+            </div>
+          </div>
+          
+         
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
                 <Image src={Mongo} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>MongoDB</h3>
               </div>
             </div>
+          </div><div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={bt} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Bootstrap</h3>
+              </div>
+            </div>
           </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={wp} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Wordpress</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={Shop} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Shopify</h3>
+              </div>
+            </div>
+          </div>
+
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
